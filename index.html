@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="sp-ES" id="index">
+<head>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./hoja_de_estilos.css" >
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <script src="javascript.js"></script>
+    
+<title>Proyecto_Unai</title>
+</head>
+<body id="bodyIndex" onresize="resize()">
+    <div id="indice">
+        <a class="tituloIndice" href="#" onclick="ocultarMenu()">MENU</a>
+        <hr>
+        <a class="tituloIndice" href="#" onclick="mostrarIndice()">ÍNDICE PÁGINA</a>
+            <hr>
+                <div id="listaIndice">
+                    <ul>
+                    <li><a class="p05"href="#tag01">DOCTYPE</a></li>
+                    <li><a class="p05"href="#tag02">TITLES</a></li>
+                    <li><a class="p05"href="#tag03">CABECERAS</a></li>
+                    <li><a class="p05"href="#tag04">PARRAFOS</a></li>
+                    <li><a class="p05"href="#tag05">LINKS</a></li>
+                    <li><a class="p05"href="#tag06">IMAGEN</a></li>
+                    <li><a class="p05"href="#tag07">BOTONES</a></li>
+                    <li><a class="p05"href="#tag08">LISTAS</a></li>
+                    <li><a class="p05"href="#tag09">ESTILOS</a></li>
+                    <li><a class="p05"href="#tag10">TEXT FORMATTING</a></li>
+                    <li><a class="p05"href="#tag11">QUOTATIONS</a></li>
+                    <li><a class="p05"href="#tag12">LANG</a></li>
+                    <li><a class="p05"href="#tag13">TITLES</a></li>
+                    <li><a class="p05"href="#tag14">HORIZONTAL RULES y LINE BREAKS</a></li>
+                    <li><a class="p05"href="#tag15">HEADS</a></li>
+                    <li><a class="p05"href="#tag16">PRE</a></li>
+                    <li><a class="p05"href="#tag17">COLORES</a></li>
+                    </ul>
+                    <hr>
+                </div>
+            <a class="tituloIndice" href="#" onclick="mostrarEnlaces()">ENLACES</a>
+                <hr>
+            <div id="listaEnlaces">
+                <ul>
+                    <li><a href="./ejemplos.html">Pokedex</a></li>
+                    <li><a href="./examen.html">Corrección examen</a></li>
+                </ul>
+            </div>
+    </div>
+    <div>
+        <div id="cabecera"><a id="tituloMenu"href="#" onclick="mostrarMenu()">MENU</a>
+        <h1>ESTA ES LA PAGINA WEB DE LENGUAJE DE MARCAS</h1>
+        </div>
+    
+    <div id="paginaPrincipal">
+
+
+<i class="fa fa-camera-retro fa-5x"></i>
+<i class="fa fa-beer fa-5x" aria-hidden="true"></i>
+<br>
+
+<br>
+
+<h2 id="h01">TAGS</h2>
+<hr>
+<h4 id="tag01">-DOCTYPE </h4>
+  <p>Sirve para especificar el tipo de archivo que es (html) y se indican con &lt;
+  !DOCTYPE (el tipo de archivo)&gt;
+<h4>
+<h4 id="tag02">-TITLES</h4>
+  <p>Se ponen mediante la expresión &lt;title&gt;(nombre de la página)
+  &lt;/title&gt;
+<h4 id="tag03">-CABECERAS/HEADINGS</h4>
+  <p>Se ponen mediante la expresión &lt;h(1-6)&gt; y se cierran con &lt;/h
+  (el numero anterior)  &gt;. Para dar un tamaño especifico al heading se puede
+  utilizar el estilo "font-size: ()px;"<p>
+<h4 id="tag04">-PARRAFOS</h4>
+  <p>Se ponen mediante la expresión &lt;p&gt; y se cierran de la misma manera.<p>
+<h4 id="tag05">-LINKS</h4>
+  <p>Se insertan mediante la expresión &lt;a href="(enlace)"&gt;(link)&lt;/a&gt;
+    <br>
+    <a href="http://www.hackertyper.com/">Esto es un link </a>
+    Los links por defecto van
+<h4 id="tag06">-IMAGEN</h4>
+  <p>Se insertan mediante la expresión &lt;img src="enlace de la imagen"
+    width=(anchura) height=(altura)&gt;
+    <h5>-ALT</h4>
+      <p>Sirve para dar un texto alternativo si la imagen no carga.
+         Se utiliza poniendo: alt="(el texto que queramos)"</p>
+           <br>
+           <img src="./img/índice.png" alt="Logo de html5." width=100 height=100>
+           <p>To use an image as a link, put the &lt;img&gt; tag inside the &lt;a&gt; tag:</p>
+           <p>Esta imagen es un link</p>
+           <a href="https://play.euw.leagueoflegends.com/es_ES"><img src="./img/logolol.png" alt="Logo de lol" width=100px ></a>
+           <p><img src="./img/logolol.png" alt="Logo de lol" style="float:right; width:100px; height:42px">Use the CSS float property to let the image float to the right or to the left of a text:</p>
+           <h2>Image Maps</h2>
+           <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+           <img src="./img/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+           <map name="workmap">
+             <area shape="rect" coords="34,44,270,350" alt="Computer" href="./img/computer.jpg">
+             <area shape="rect" coords="290,172,333,250" alt="Phone" href="./img/phone.jpg">
+             <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="./img/coffee.jpg">
+           </map>
+           <div style="background-image: url('./img/img_girl.jpg'); background-repeat: no-repeat;  background-size: 100% 100%;">
+             se puede poner una imagen de fondo en una parte poniendo el tag (div) con el estilo de background-image y poniendo la url de la imagen o a la pagina entera si se mete directamente en el body <br>
+             para que la imagen no se repita se pone (background-repeat: no-repeat;) despues del background-image.Para darle tamaño a la imagen se pone (background-size: ?% ?%;)
+             <br><br><br><br><br><br><br><br><br><br><br><br><br>
+          </div>
+
+<h4 id="tag07">-BOTONES</h4>
+  <p>Se insertan mediante &lt;button&gt;(texto del boton)&lt;/button&gt;
+    <br>
+    <button>Click me</button>
+<h4 id="tag08">-LISTAS</h4>
+  <p>Se abren mediante &lt;ul&gt; se cierran con &lt;/ul&gt; se pone cada punto
+     con &lt;li&gt; y se cierran con &lt;/li&gt; y de la misma manera para numeros
+      pero con &lt;ol&gt; y cerrarse con &lt;/ol&gt; </p>
+    <ul>
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+   </ul>
+
+   <ol>
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+   </ol>
+<h4 id="tag09">-ESTILOS</h4>
+  <p>Se utilizan para dar un estilos como color, tamaño,... a un elemento. Se
+    ponen con "style=(el estilo en concreto):(y la caracteristica)".
+    Existen varios tipos de estilos, estos son unos de ellos:
+    <ul>
+      <li>Background color (style="background-color: (el color);")</li>
+      <li>Text color (style="text-color: (el color);")</li>
+      <li>Fonts (style="font-family: (el nombre del tipo de letra);")</li>
+      <li>Text size (style="text-size: (tamaño de la letra en pixeles (px));")</li>
+      <li>Text alignment (style="text-align: (center, left, right o justified);")</li>
+    </ul> <p>
+      <p id="p01">Este texto tiene el estilo de color.<p>
+<h4 id="tag10">-TEXT FORMATTING</h4>
+  <p>Estos son elementos para definir texto:
+    <ul>
+    <li>&lt;b&gt; - Negrita normal: <b> buenos </b> dias</li>
+    <li>&lt;strong&gt; - Negrita importante: <strong>buenos </strong> dias</li>
+    <li>&lt;i&gt; - Cursiva normal: <i> buenos </i> dias </li>
+    <li>&lt;em&gt; - Cursiva con importancia: <em> buenos </em> dias  </li>
+    <li>&lt;mark&gt; - Para marcar palabras dentro de un texto sin marcar todo:
+       <mark> buenos </mark> dias  </li>
+    <li>&lt;small&gt; - Para hacer más pequeño algunas palabras dentro de un
+      texto: <small> buenos </small> dias </li>
+    <li>&lt;del&gt; - Para tachar palabras: <del> buenos </del> dias  </li>
+    <li>&lt;ins&gt; - Para definir elementos insertado o añadidos:
+       <ins> buenos </ins> dias  </li>
+    <li>&lt;sub&gt; - Para subscribir texto: <sub> buenos </sub> dias  </li>
+    <li>&lt;sup&gt; - Para  definir texto sobrescrito: <sup> buenos </sup> dias  </li>
+  </ul>
+<h4 id="tag11">-QUOTATIONS</h4>
+  <p>Sirven para hacer citas o añadir informacion<p>
+    <ul id="listaQuotation">
+      <li>&lt;q&gt; citas cortas:  <p>WWF's goal is to: <q>Build a future where
+        people live in harmony with nature.</q></p> </li>
+      <li>&lt;blockquote&gt; citas extensas de otra pagina:
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+          For 50 years, WWF has been protecting the future of nature.
+          The world's leading conservation organization,
+          WWF works in 100 countries and is supported by
+          1.2 million members in the United States and
+          close to 5 million globally.
+        </blockquote> </li>
+      <li>&lt;abbr&gt; abreviaturas: <p> Este año el <abbr title="League of Legends">
+        LoL</abbr> cumple 10 años.</li>
+      <li>&lt;address&gt; para poner informacion sobre el autor de la página:
+        <address>
+          Written by Unai Iraragorri. <br>
+          Visit us at: www.ejemplo.com <br>
+          Carretera La Estación Nº5, Fuenmayor <br>
+          Spain </addres> </li>
+      <li>&lt;cite&gt; para citar el nombre de un trabajo/obra:
+         <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+       </li>
+      <li>&lt;bdo&gt; para invertir la dirección en la que es escrita un texto: <br>
+        <bdo dir="rtl">Este texto esta escrito de derecha a izquierda</bdo></li>
+    </ul>
+<h4 id="tag12">-LANG</h4>
+  <p>Sirve para declarar el idioma de la página y se pone cuando se abre el html:
+    &lt;html lang="sp-ES"&gt;<p>
+<h4 id="tag13">-TITLES (p)</h4>
+  <p>Sirven para cuando se pase el rato.ón por encima del texto aparezca un mensaje.
+    Se usa en el parrafo poniendo title="(lo que quieras poner)".<p>
+<h4 id="tag14">-HORIZONTAL RULES y LINE BREAKS (hr & br)</h4>
+  <p>Sirven para poner una linea horizontal donde se ha puesto. Para crear la linea
+    hay que poner &lt;hr&gt;. Los line breaks sirven para dejar una linea en blanco y
+    se ponen con &lt;br&gt;. <p>
+<h4 id="tag15">-HEADS</h4>
+  <p>Sirve como contenedor de metadatos. Se pone &lt;head&gt; después de html y
+    antes del title y &lt;/head&gt; antes del body.<p>
+<h4 id="tag16">-PRE</h4>
+<p>Sirve para escribir un texto preformateado. Se utiliza igual que la p pero con pre.
+  <p>
+<pre> (Este texto utiliza pre)
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+<h4 id="tag17">-COLORES</h4>
+  <ul>
+    <li>Background color (style="background-color: (el color);")</li>
+    <li>Text color (style="text-color: (el color);")</li>
+    <li>Border color (style="border:(tamaño en px) (el color);")</li>
+    <li>Color values:
+      <ul>
+        <li>RGB: se combinan rojo, verde y azul para hacer colores dando un
+          valor a cada uno de 0 a 255:
+          <p id="p02">rgb(60, 179, 113)<p>
+          </li>
+        <li>HEX: igual que el rgb pero con valor hexadecimal, se utiliza poniendo
+          #rrggbb (rr=red, gg=green, bb=blue) con valores de 00 a ff:
+          <p id="p03">hex #3cb371<p></li>
+        <li>RGBA: funciona igual que el rgb pero con el elemento alpha que
+          indica la transparencia;
+          <p id="p04">rgba(60, 179, 113, 0.5)<p>
+          </li>
+        </ul>
+      </ul>
+<h1>TABLA HORARIOS</h1>
+
+<table id="table01">
+  <tr>
+    <th>HORAS</th>
+    <th>LUNES</th>
+    <th>MARTES</th>
+    <th>MIERCOLES</th>
+    <th>JUEVES</th>
+    <th>VIERNES</th>
+  </tr>
+  <tr>
+    <td>4:15-5:05</td>
+    <td rowspan="2" class="BasesDatos">Bases de Datos</td>
+    <td rowspan="2" class="Programacion">Programacion</td>
+    <td rowspan="2" class="Sistemas">Sistemas</td>
+    <td rowspan="2" class="Programacion">Programacion</td>
+    <td rowspan="2" class="Programacion">Programacion</td>
+  </tr>
+  <tr>
+    <td>5:10-6:00</td>
+  </tr>
+  <tr>
+    <td>6:05-6:55</td>
+    <td class="Programacion">Programacion</td>
+    <td class="BasesDatos">Bases de Datos</td>
+    <td class="LenguajeMarcas">Lenguaje de Marcas</td>
+    <td class="Sistemas">Sistemas</td>
+    <td class="FOL">FOL</td>
+  </tr>
+  <tr>
+    <td>6:55-19:20</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>7:20-8:10</td>
+    <td class="Programacion">Programacion</td>
+    <td class="BasesDatos">Bases de Datos</td>
+    <td rowspan="2" class="BasesDatos">Bases de Datos</td>
+    <td class="Sistemas">Sistemas</td>
+    <td class="FOL">FOL</td>
+  </tr>
+  <tr>
+    <td>8:15-9:05</td>
+    <td class="FOL">FOL</td>
+    <td class="Sistemas">Sistemas</td>
+    <td rowspan="2" class="Entornos">Entornos</td>
+    <td rowspan="2" class="LenguajeMarcas">Lenguaje de Marcas</td>
+  </tr>
+  <tr>
+    <td>9:10-10:00</td>
+    <td class="Ingles">Ingles</td>
+    <td class="Ingles">Ingles</td>
+    <td class="Entornos">Entornos</td>
+  </tr>
+</table>
+  <br>
+  <h1>TABLA LoL</h1>
+  <table id="table02">
+    <tr>
+      <td></td>
+      <td rowspan="2">HOLA</td>
+      <td></tabindex="">
+      <td></tabindex="">
+      <td></td>
+    </tr>
+    <tr>
+      <td><bdo dir="rtl">ADIÓS</bdo></td>
+      <td rowspan="2"><div id="celda01"><pre>              </pre>PEDRO EL GUAPO<pre>           </pre></div></td>
+      <td id="celda02">Caracola</td>
+      <td></td>
+      <td id="celda03"><div id="celda03"><b><u>R</u></b></div></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td colspan="3"><u>HTML</u></td>
+
+    </tr>
+    <tr>
+      <td id="celda04" rowspan="2" colspan="2"><img src="./img/logolol.png" alt="Logo de lol" width=100% ></td>
+      <td></td>
+      <td rowspan="2"><span class="fa-stack fa-lg"><i class="fa fa-trash-o fa-stack-2x"></i><i id="instagram"class="fa fa-instagram fa-stack-1x"></i></span></td>
+      <td></td>
+      <td id="celda05"></td>
+
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+
+
+    </tr>
+  </table>
+
+  <h1>DOCUMENTO</h1>
+  <table id="documento">
+    <tr id="margenSup">
+      <td class="espacioIz"></td>
+      <td class="texto"></td>
+      <td class="espacioDr"></td>
+    </tr>
+    <tr>
+      <td class="espacioIz"></td>
+      <th class="texto">CUANDO EL GRAJO...</th>
+      <td class="espacioDr"></td>
+    </tr>
+    <tr>
+      <td class="espacioIz"></td>
+      <td class="texto">Vuela bajo... Ut eget scelerisque ligula. Nulla porta turpis id nunc tincidunt, a blandit leo euismod. Praesent at interdum arcu. Quisque blandit lectus quis turpis feugiat lobortis. Morbi eget dolor in urna facilisis varius et quis nunc. Vivamus aliquam imperdiet purus, et varius justo fringilla eu. Mauris condimentum hendrerit lectus, in fringilla nunc vestibulum sed. Sed iaculis imperdiet malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ornare dui id efficitur sodales. Nullam nec augue sed tortor aliquet laoreet id ac neque. Aliquam rutrum augue sed rutrum aliquam. Duis mollis velit et lorem ultrices, venenatis accumsan elit placerat. Morbi volutpat auctor semper. Mauris vehicula porttitor augue non faucibus. </td>
+      <td class="espacioDr"></td>
+    </tr>
+    <tr>
+      <td class="espacioIz"></td>
+      <td class="texto">Integer ac libero in elit vulputate vulputate nec non dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer malesuada scelerisque quam convallis facilisis. Vivamus rutrum, ante quis fringilla molestie, justo felis lobortis eros, sit amet pulvinar nulla ex in nisi. Nullam malesuada magna velit, in blandit metus tincidunt eu. Nam lacinia massa ut libero euismod dapibus. Fusce dapibus condimentum mollis. Curabitur fringilla eget arcu eget iaculis. Vivamus quis mattis massa, aliquam viverra mauris. Mauris tortor nunc, commodo sollicitudin lacus eget, euismod ornare enim. Donec finibus dui interdum, imperdiet sem ac, ultrices dui. </td>
+      <td class="espacioDr"></td>
+    </tr>
+    <tr>
+      <td class="espacioIz"></td>
+      <td class="texto"><div class="leyenda"><p><img id="foto" src="./img/paisaje.jpg" alt="Foto de un paisaje." onclick="foto()"></p><p>Imagen de un paisaje</p></div></td>
+      <td class="espacioDr"></td>
+    </tr>
+      </div>
+    </div>
+
+</body>
+</html>

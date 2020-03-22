@@ -1,0 +1,274 @@
+body{
+    background-color:#6ed8dd;
+}
+hr{
+    color: #691414;
+}
+#h01{
+  text-decoration:underline;
+}
+#p01{
+   color:blue;
+}
+#p02{
+   background-color:rgb(60, 179, 113);
+}
+#p03{
+   background-color:#3cb371;
+}
+#p04{
+  background-color:rgba(60, 179, 113, 0.5);
+}
+.p05{
+font-family: 'Satisfy', cursive;
+}
+#table01 td, #table01 th, #table01{
+ border: 3px solid black;
+ style="width:100%";
+ padding: 10px;
+ border-collapse: collapse;
+}
+.Programacion{
+ background-color:red;
+}
+.BasesDatos{
+ background-color:green;
+}
+.Sistemas{
+ background-color:blue;
+}
+.LenguajeMarcas{
+ background-color:yellow;
+}
+.FOL{
+ background-color:brown;
+}
+.Entornos{
+ background-color:deepskyblue;
+}
+.Ingles{
+ background-color:orange;
+}
+#table02 td, #table02 th, #table02{
+ border: 2px solid black;
+ style="width:100%";
+ padding: 20px;
+ border-collapse: collapse;
+}
+div#celda01{
+ transform: rotate(90deg);
+}
+#celda02{
+ background-color: green;
+}
+div#celda03{
+ transform: rotate(45deg);
+ font-size: 24px;
+}
+#celda03{
+ background-color: red;
+}
+#celda04{
+ background-color: purple;
+}
+#instagram{
+ color: aquamarine;
+}
+#celda05{
+ background-color: blue;
+}
+#documento{
+ border: 2px solid black;
+ width:100%;
+ padding: 20px;
+ border-collapse: collapse;
+}
+.espacioIz{
+ width:20%;
+ background-color: yellow;
+}
+.espacioDr{
+ width:20%;
+ background-color: yellow;
+}
+.texto{
+ width:60%;
+}
+#margenSup{
+ height: 50px;
+}
+#foto{
+ height: 400px;
+ width:1512px;
+ border: 5px solid black;
+}
+div.leyenda p{
+ text-align: center;
+}
+#listaQuotation{
+ list-style-type:square ;
+}
+.pokedex{
+ background: linear-gradient(to right, #c40000, #ffa24f);
+ color: black;
+ height: 800px;
+ padding: 1%;
+ font-size: 30px;
+ border-bottom-left-radius: 33px;
+ border-bottom-right-radius: 33px;
+ border-top-left-radius: 33px;
+ border-top-right-radius: 33px;
+
+
+}
+#tituloPokedex{
+ background-color: black;
+ color: white;
+ padding-top: 2%;
+ height: 14%;
+ margin-bottom: 1%;
+ text-align: center;
+ border-top-left-radius: 500px;
+ border-top-right-radius: 500px;
+ border-bottom-left-radius: 500px;
+ border-bottom-right-radius: 500px;
+}
+#paginaPokemon{
+ background-color: #291a6e;
+ padding: 1%;
+}
+
+#tablaMultiplicar td, #tablaMultiplicar th, #tablaMultiplicar{
+ 
+ border: 3px solid black;
+ style="width:100%";
+ padding: 10px;
+ border-collapse: collapse;
+}
+#tablaMultiplicar tr:nth-child(even) {
+    background-color: red;
+}
+#tablaMultiplicar tr:nth-child(odd) {
+    background-color: green;
+}
+.fila03{
+ background-color: blue;
+}
+#tablaexamen2 td, #tablaexamen2 th, #tablaexamen2{
+ border: 1px solid black;
+ style="width:100%";
+}
+#documentoEx{
+
+ background-color: #c8e0ec;
+ width:100%;
+ padding: 20px;
+ border-collapse: collapse;
+}
+#margenSupEx{
+ height: 50px;
+}
+.espacioIzEx{
+ width:1%;
+ background-color: #c8e0ec;
+}
+.espacioDrEx{
+ width:1%;
+ background-color: #c8e0ec;
+}
+.textoEx{
+ width:98%;
+}
+#title01{
+ background-color: #409abf;
+ text-align: left;
+}
+#title02{
+ background-color: #409abf;
+ text-align: left;
+}
+#title03{
+ background-color: #77b9d2;
+ text-align: left;
+ color: white;
+}
+#texto01{
+ background-color: white;
+}
+#margenInfEx{
+ height: 20px;
+}
+table:hover {
+  cursor: grab;
+}
+    a {
+      position: relative;
+    }
+     
+
+#indice{
+    transition: left 2s;
+    left: -303px;
+   
+    top: 0px;
+    position: fixed;
+    border: 2px solid black;
+    border-color: #691414;
+    height: 99.6%;
+    width: 15%;
+    background: linear-gradient(to right, #0f6108, #1e9513);
+}
+#cabecera{
+    transition: left 2s;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: auto;
+    top:0;
+    z-index: 3;
+    
+    background: linear-gradient(#155185, #ae3da2); 
+    border-bottom: 2px solid black;
+}
+#tituloMenu{
+    color: #2498d0;
+    font-size: 30px;
+}
+.tituloIndice{
+    color: #2498d0;
+    font-size: 30px;
+}
+.fondoFuego{
+    background-color: #ba041a;
+}
+.fondoPlanta {
+    background-color: 
+    #19720c;
+}
+#bodyIndex{
+    margin: 0;
+}
+#paginaPrincipal{
+    position: absolute;
+    width: 100%;
+    left:0;
+    transition: left 2s;
+    top: 20%;
+}
+
+#listaIndice{
+    display: none;
+}
+#listaEnlaces{
+    display: none;
+    
+}
+
+#index{
+    overflow-x: hidden;
+    
+    display: grid;  
+    grid-gap: 5px;  
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 100px);  
+}
