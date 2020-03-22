@@ -1,8 +1,25 @@
 #foto{
-    position: absolute;
     margin-left: 40%;
-    z-index: 0;
 }
 #titulo{
-    
+    text-align: center;
+}
+.formularios{
+    margin-left: 25%;
+    border: 2px solid black;
+    margin-top: 2%;
+    width: 50%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    background: linear-gradient(to right, #c40000, #ffa24f);
+}
+.envio{
+    margin-top: 2%;    
+}
+body{
+    background: linear-gradient(to right, #594141, #ffa24f);
+}
+#submit{
+    margin-left: 48%;
+    margin-top: 2%;
 }
