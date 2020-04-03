@@ -1,0 +1,93 @@
+#cabecera{
+    color: #ffb31a;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: titulos;
+    text-align: center;
+}
+#cabecera h1{
+    margin-top: 0;
+}
+.titulos{
+    color: #ffb31a;
+    font-family: titulos;
+}
+#contenido{
+    padding-top: 1%;
+    padding-left: 6%;
+}
+.contenidoDiv{
+    color: white;
+    font-size: 18px;
+    font-family: contenido;
+    margin-bottom: 80px;
+}
+#contenidoDiv2{
+    color: #ffb31a;
+    font-family: contenido;
+    margin-bottom: 80px;
+}
+body{
+    background-color: black;
+    margin: 0;
+    width: 1440px;
+}
+@font-face{
+    font-family: "titulos";
+    src: url("./BerlinSansFBDemiBold.ttf");
+}
+@font-face{
+    font-family: "contenido";
+    src: url("./arlrdbd.ttf");
+}
+
+#divScroll{
+    background-color: white;
+    overflow: scroll;
+    height: 100px;
+    width: 500px;
+}
+#divsSolapados{
+    height: 500px;
+}
+#divSolapado1{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    z-index: 0;
+    width: 275px;
+}
+#divSolapado2{
+    position: relative;
+    left: 300px;
+    z-index: 1;
+}
+#divSolapado3{
+    position: relative;
+    top: -280px;
+    z-index: 1;
+}
+#divSolapado1:hover{
+    z-index: 2;
+}
+#formulario{
+    background-color: red;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.formularios{
+    margin-left: 25%;
+    border: 2px solid black;
+    margin-top: 2%;
+    width: 50%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    background: linear-gradient(to right, #0015c4, #4fff83)
+}
+.envio{
+    margin-top: 2%;    
+}
+#submit{
+    margin-left: 48%;
+    margin-top: 2%;
+}
