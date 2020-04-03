@@ -22,11 +22,13 @@
     font-family: contenido;
     margin-bottom: 80px;
 }
-#contenidoDiv2{
+#contenidoDiv2, a{
     color: #ffb31a;
     font-family: contenido;
     margin-bottom: 80px;
+    text-decoration: none;
 }
+
 body{
     background-color: black;
     margin: 0;
