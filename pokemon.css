@@ -115,7 +115,28 @@ img {
   background-color: #ddd;
 }
 
-.btn.active {
+.btn.activo {
+  background-color: #666;
+  color: white;
+}
+.btn2 {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  margin-bottom: 0.5%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.btn2:hover {
+  background-color: #ddd;
+}
+
+.btn2.activo2 {
   background-color: #666;
   color: white;
 }
@@ -125,10 +146,24 @@ img {
   
   display: none;
 }
+.filterDiv2 {
+  
+  display: none;
+}
 .show {
   display: block;
 }
+.enseñar {
+  display: block;
+}
 #mySearch {
+  
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+  margin-bottom: 2%;
+}
+#mySearch2 {
   
   font-size: 18px;
   padding: 11px;
@@ -181,7 +216,42 @@ img {
     animation-duration: 3s;
     z-index: 4;
 }
+.hooh{
+    display: block;
+    border: none;
+    left: -100%;
+    top: 0;
+    background: none;
+    animation-name: hooh_animation;
+    animation-duration: 3s;
+    z-index: 4;
+}
+#hooh2{
+    display: none;
+}
+.rayquaza{
+    display: block;
+    border: none;
+    left: -100%;
+    top: 0;
+    background: none;
+    animation-name: rayquaza_animation;
+    animation-duration: 3s;
+    z-index: 4;
+}
+#rayquaza2{
+    display: none;
+}
 @keyframes mew_animation {
   from {left:-100px; top:-100px}
   to {left:110%; top: 100%}
+}
+
+@keyframes hooh_animation {
+  from {left:110%; top:100%}
+  to {left:-200px; top: 50%}
+}
+@keyframes rayquaza_animation {
+  from {left:-100px; top:100%}
+  to {left:50%; top: -50%}
 }
