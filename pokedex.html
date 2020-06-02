@@ -3,11 +3,10 @@
     <head>
         
       <link rel="stylesheet" href="./pokemon.css">
-        
       <title>Pokedex</title>
     </head>
     <body id="paginaPokemon">
-        <img src="img/Mew.jpg" id="mew">
+        <img src="img/Mew.jpg" id="mew2" class="">
         <img src="img/Hooh.jpg"  id="hooh2" class="">
         <img src="img/Rayquaza.jpg"  id="rayquaza2" class="">
         <div class="tab">
@@ -16,14 +15,14 @@
             <button class="tablinks" onclick="openCity(event, 'Hoen')">Hoen</button>
         </div>
         <div>
-        <div class="header">
+        <div id="header">
           <h1 id="pokeball">POKEDEX</h1>
         </div>
 
-        <div class="pokedex">
+        <div id="pokedex">
           <div class="tabcontent" id="Kanto">
             <h3>Estos son los pokemon de la región de Kanto:</h3>            
-                <div class="row"><input type="text" class="col-4" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a pokemon">
+                <div class="row"><input type="text" class="col-4" id="mySearch" onkeyup="myFunction()" placeholder="Buscar..." title="Type in a pokemon">
                 </div>
                 <div id="myBtnContainer">
                     <button class="btn activo" onclick="filterSelection('all')"> Todos los tipos</button>
@@ -61,65 +60,65 @@
                     <div class="filterDiv agua"><a href="./Squirtle.html" class="caja">Squirtle<img src="./img/Squirtle.jpg"></a></div>
                     <div class="filterDiv agua"><a href="./img/Wartortle.jpg" class="caja">Wartortle<img src="./img/Wartortle.jpg"></a></div>
                     <div class="filterDiv agua"><a href="./img/Blastoise.jpg" class="caja">Blastoise<img src="./img/Blastoise.jpg"></a></div>
-                    <div class="filterDiv bicho"><a href="./img/Blastoise.jpg" class="caja">Caterpie<img src="./img/Caterpie.jpg"></a></div>
-                    <div class="filterDiv bicho"><a href="./img/Blastoise.jpg" class="caja">Metapod<img src="./img/Metapod.jpg"></a></div>
-                    <div class="filterDiv bicho volador"><a href="./img/Blastoise.jpg" class="caja">Butterfree<img src="./img/Butterfree.jpg"></a></div>                 
-                    <div class="filterDiv bicho veneno"><a href="./img/Blastoise.jpg" class="caja">Weedle<img src="./img/Weedle.jpg"></a></div>
-                    <div class="filterDiv bicho veneno"><a href="./img/Blastoise.jpg" class="caja">Kakuna<img src="./img/Kakuna.jpg"></a></div>
-                    <div class="filterDiv bicho veneno"><a href="./img/Blastoise.jpg" class="caja">Beedrill<img src="./img/Beedrill.jpg"></a></div>
-                    <div class="filterDiv normal volador"><a href="./img/Blastoise.jpg" class="caja">Pidgey<img src="./img/Pidgey.jpg"></a></div>
-                    <div class="filterDiv normal volador"><a href="./img/Blastoise.jpg" class="caja">Pidgeotto<img src="./img/Pidgeotto.jpg"></a></div>
-                    <div class="filterDiv normal volador"><a href="./img/Blastoise.jpg" class="caja">Pidgeot<img src="./img/Pidgeot.jpg"></a></div>
-                    <div class="filterDiv normal"><a href="./img/Blastoise.jpg" class="caja">Rattata<img src="./img/Rattata.jpg"></a></div>
-                    <div class="filterDiv normal"><a href="./img/Blastoise.jpg" class="caja">Raticate<img src="./img/Raticate.jpg"></a></div>
-                    <div class="filterDiv normal volador"><a href="./img/Blastoise.jpg" class="caja">Spearow<img src="./img/Spearow.jpg"></a></div>
-                    <div class="filterDiv normal volador"><a href="./img/Blastoise.jpg" class="caja">Fearow<img src="./img/Fearow.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Ekans<img src="./img/Ekans.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Arbok<img src="./img/Arbok.jpg"></a></div>
-                    <div class="filterDiv electrico"><a href="./img/Blastoise.jpg" class="caja">Pikachu<img src="./img/Pikachu.jpg"></a></div>
-                    <div class="filterDiv electrico"><a href="./img/Blastoise.jpg" class="caja">Raichu<img src="./img/Raichu.jpg"></a></div>
-                    <div class="filterDiv tierra"> <a href="./img/Blastoise.jpg" class="caja">Sandshrew<img src="./img/Sandshrew.jpg"></a></div>
-                    <div class="filterDiv tierra"><a href="./img/Blastoise.jpg" class="caja">Sandslash<img src="./img/Sandslash.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Nidoran ♀<img src="./img/Nidoran♀.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Nidorina<img src="./img/Nidorina.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Nidoqueen<img src="./img/Nidoqueen.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Nidoran ♂<img src="./img/Nidoran♂.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Nidorino<img src="./img/Nidorino.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Nidoking<img src="./img/Nidoking.jpg"></a></div>
-                    <div class="filterDiv hada"><a href="./img/Blastoise.jpg" class="caja">Clefairy<img src="./img/Clefairy.jpg"></a></div>
-                    <div class="filterDiv hada"><a href="./img/Blastoise.jpg" class="caja">Clefable<img src="./img/Clefable.jpg"></a></div>
-                    <div class="filterDiv fuego"><a href="./img/Blastoise.jpg" class="caja">Vulpix<img src="./img/Vulpix.jpg"></a></div>
-                    <div class="filterDiv fuego"><a href="./img/Blastoise.jpg" class="caja">Ninetales<img src="./img/Ninetales.jpg"></a></div>
-                    <div class="filterDiv normal hada"><a href="./img/Blastoise.jpg" class="caja">Jigglypuff<img src="./img/Jigglypuff.jpg"></a></div>
-                    <div class="filterDiv normal hada"><a href="./img/Blastoise.jpg" class="caja">Wigglytuff<img src="./img/Wigglytuff.jpg"></a></div>
-                    <div class="filterDiv veneno volador"><a href="./img/Blastoise.jpg" class="caja">Zubat<img src="./img/Zubat.jpg"></a></div>
-                    <div class="filterDiv veneno volador"><a href="./img/Blastoise.jpg" class="caja">Golbat<img src="./img/Golbat.jpg"></a></div>
-                    <div class="filterDiv planta veneno"><a href="./img/Blastoise.jpg" class="caja">Oddish<img src="./img/Oddish.jpg"></a></div>
-                    <div class="filterDiv planta veneno"><a href="./img/Blastoise.jpg" class="caja">Gloom<img src="./img/Oddish.jpg"></a></div>
-                    <div class="filterDiv planta veneno"><a href="./img/Blastoise.jpg" class="caja">Vileplume<img src="./img/Vileplume.jpg"></a></div>
-                    <div class="filterDiv bicho planta"><a href="./img/Blastoise.jpg" class="caja">Paras<img src="./img/Paras.jpg"></a></div>
-                    <div class="filterDiv bicho planta"><a href="./img/Blastoise.jpg" class="caja">Parasect<img src="./img/Parasect.jpg"></a></div>
-                    <div class="filterDiv bicho veneno"><a href="./img/Blastoise.jpg" class="caja">Venonat<img src="./img/Venonat.jpg"></a></div>
-                    <div class="filterDiv bicho veneno"><a href="./img/Blastoise.jpg" class="caja">Venomoth<img src="./img/Venomoth.jpg"></a></div>
-                    <div class="filterDiv tierra"><a href="./img/Blastoise.jpg" class="caja">Diglett<img src="./img/Diglett.jpg"></a></div>
-                    <div class="filterDiv tierra"><a href="./img/Blastoise.jpg" class="caja">Dugtrio<img src="./img/Dugtrio.jpg"></a></div>
-                    <div class="filterDiv normal"><a href="./img/Blastoise.jpg" class="caja">Meowth<img src="./img/Meowth.jpg"></a></div>
-                    <div class="filterDiv normal"><a href="./img/Blastoise.jpg" class="caja">Persian<img src="./img/Persian.jpg"></a></div>
-                    <div class="filterDiv agua"><a href="./img/Blastoise.jpg" class="caja">Psyduck<img src="./img/Psyduck.jpg"></a></div>
-                    <div class="filterDiv agua"><a href="./img/Blastoise.jpg" class="caja">Golduck<img src="./img/Golduck.jpg"></a></div>
-                    <div class="filterDiv lucha"><a href="./img/Blastoise.jpg" class="caja">Mankey<img src="./img/Mankey.jpg"></a></div>
-                    <div class="filterDiv lucha"><a href="./img/Blastoise.jpg" class="caja">Primeape<img src="./img/Primeape.jpg"></a></div>
-                    <div class="filterDiv fuego"><a href="./img/Blastoise.jpg" class="caja">Growlithe<img src="./img/Growlithe.jpg"></a></div>
-                    <div class="filterDiv fuego"><a href="./img/Blastoise.jpg" class="caja">Arcanine<img src="./img/Arcanine.jpg"></a></div>
-                    <div class="filterDiv agua"><a href="./img/Blastoise.jpg" class="caja">Poliwag<img src="./img/Poliwag.jpg"></a></div>
-                    <div class="filterDiv agua"><a href="./img/Blastoise.jpg" class="caja">Poliwhirl<img src="./img/Poliwhirl.jpg"></a></div>
-                    <div class="filterDiv agua lucha"><a href="./img/Blastoise.jpg" class="caja">Poliwrath<img src="./img/Poliwrath.jpg"></a></div>
-                    <div class="filterDiv psiquico"><a href="./img/Blastoise.jpg" class="caja">Abra<img src="./img/Abra.jpg"></a></div>
-                    <div class="filterDiv psiquico"><a href="./img/Blastoise.jpg" class="caja">Kadabra<img src="./img/Kadabra.jpg"></a></div>
-                    <div class="filterDiv psiquico"><a href="./img/Blastoise.jpg" class="caja">Alakazam<img src="./img/Alakazam.jpg"></a></div>
-                    <div class="filterDiv lucha"><a href="./img/Blastoise.jpg" class="caja">Machop<img src="./img/Machop.jpg"></a></div>
-                    <div class="filterDiv lucha"><a href="./img/Blastoise.jpg" class="caja">Machoke<img src="./img/Machoke.jpg"></a></div>
-                    <div class="filterDiv lucha"><a href="./img/Blastoise.jpg" class="caja">Machamp<img src="./img/Machamp.jpg"></a></div>
+                    <div class="filterDiv bicho"><a href="./img/Caterpie.jpg" class="caja">Caterpie<img src="./img/Caterpie.jpg"></a></div>
+                    <div class="filterDiv bicho"><a href="./img/Metapod.jpg" class="caja">Metapod<img src="./img/Metapod.jpg"></a></div>
+                    <div class="filterDiv bicho volador"><a href="./img/Butterfree.jpg" class="caja">Butterfree<img src="./img/Butterfree.jpg"></a></div>                 
+                    <div class="filterDiv bicho veneno"><a href="./img/Weedle.jpg" class="caja">Weedle<img src="./img/Weedle.jpg"></a></div>
+                    <div class="filterDiv bicho veneno"><a href="./img/Kakuna.jpg" class="caja">Kakuna<img src="./img/Kakuna.jpg"></a></div>
+                    <div class="filterDiv bicho veneno"><a href="./img/Beedrill.jpg" class="caja">Beedrill<img src="./img/Beedrill.jpg"></a></div>
+                    <div class="filterDiv normal volador"><a href="./img/Pidgey.jpg" class="caja">Pidgey<img src="./img/Pidgey.jpg"></a></div>
+                    <div class="filterDiv normal volador"><a href="./img/Pidgeotto.jpg" class="caja">Pidgeotto<img src="./img/Pidgeotto.jpg"></a></div>
+                    <div class="filterDiv normal volador"><a href="./img/Pidgeot.jpg" class="caja">Pidgeot<img src="./img/Pidgeot.jpg"></a></div>
+                    <div class="filterDiv normal"><a href="./img/Rattata.jpg" class="caja">Rattata<img src="./img/Rattata.jpg"></a></div>
+                    <div class="filterDiv normal"><a href="./img/Raticate.jpg" class="caja">Raticate<img src="./img/Raticate.jpg"></a></div>
+                    <div class="filterDiv normal volador"><a href="./img/Spearow.jpg" class="caja">Spearow<img src="./img/Spearow.jpg"></a></div>
+                    <div class="filterDiv normal volador"><a href="./img/Fearow.jpg" class="caja">Fearow<img src="./img/Fearow.jpg"></a></div>
+                    <div class="filterDiv veneno"><a href="./img/Ekans.jpg" class="caja">Ekans<img src="./img/Ekans.jpg"></a></div>
+                    <div class="filterDiv veneno"><a href="./img/Arbok.jpg" class="caja">Arbok<img src="./img/Arbok.jpg"></a></div>
+                    <div class="filterDiv electrico"><a href="./img/Pikachu.jpg" class="caja">Pikachu<img src="./img/Pikachu.jpg"></a></div>
+                    <div class="filterDiv electrico"><a href="./img/Raichu.jpg" class="caja">Raichu<img src="./img/Raichu.jpg"></a></div>
+                    <div class="filterDiv tierra"> <a href="./img/Sandshrew.jpg" class="caja">Sandshrew<img src="./img/Sandshrew.jpg"></a></div>
+                    <div class="filterDiv tierra"><a href="./img/Sandslash.jpg" class="caja">Sandslash<img src="./img/Sandslash.jpg"></a></div>
+                    <div class="filterDiv veneno"><a href="./img//Nidoran♀.jpg" class="caja">Nidoran ♀<img src="./img/Nidoran♀.jpg"></a></div>
+                    <div class="filterDiv veneno"><a href="./img/Nidorina.jpg" class="caja">Nidorina<img src="./img/Nidorina.jpg"></a></div>
+                    <div class="filterDiv veneno"><a href="./img/Nidoqueen.jpg" class="caja">Nidoqueen<img src="./img/Nidoqueen.jpg"></a></div>
+                    <div class="filterDiv veneno"><a href="./img/Nidoran♂.jpg" class="caja">Nidoran ♂<img src="./img/Nidoran♂.jpg"></a></div>
+                    <div class="filterDiv veneno"><a href="./img/Nidorino.jpg" class="caja">Nidorino<img src="./img/Nidorino.jpg"></a></div>
+                    <div class="filterDiv veneno"><a href="./img/Nidoking.jpg" class="caja">Nidoking<img src="./img/Nidoking.jpg"></a></div>
+                    <div class="filterDiv hada"><a href="./img/Clefairy.jpg" class="caja">Clefairy<img src="./img/Clefairy.jpg"></a></div>
+                    <div class="filterDiv hada"><a href="./img/Clefable.jpg" class="caja">Clefable<img src="./img/Clefable.jpg"></a></div>
+                    <div class="filterDiv fuego"><a href="./img/Vulpix.jpg" class="caja">Vulpix<img src="./img/Vulpix.jpg"></a></div>
+                    <div class="filterDiv fuego"><a href="./img/Ninetales.jpg" class="caja">Ninetales<img src="./img/Ninetales.jpg"></a></div>
+                    <div class="filterDiv normal hada"><a href="./img/Jigglypuff.jpg" class="caja">Jigglypuff<img src="./img/Jigglypuff.jpg"></a></div>
+                    <div class="filterDiv normal hada"><a href="./img/Wigglytuff.jpg" class="caja">Wigglytuff<img src="./img/Wigglytuff.jpg"></a></div>
+                    <div class="filterDiv veneno volador"><a href="./img/Zubat.jpg" class="caja">Zubat<img src="./img/Zubat.jpg"></a></div>
+                    <div class="filterDiv veneno volador"><a href="./img/Golbat.jpg" class="caja">Golbat<img src="./img/Golbat.jpg"></a></div>
+                    <div class="filterDiv planta veneno"><a href="./img/Oddish.jpg" class="caja">Oddish<img src="./img/Oddish.jpg"></a></div>
+                    <div class="filterDiv planta veneno"><a href="./img/Gloom.jpg" class="caja">Gloom<img src="./img/Gloom.jpg"></a></div>
+                    <div class="filterDiv planta veneno"><a href="./img/Vileplume.jpg" class="caja">Vileplume<img src="./img/Vileplume.jpg"></a></div>
+                    <div class="filterDiv bicho planta"><a href="./img/Paras.jpg" class="caja">Paras<img src="./img/Paras.jpg"></a></div>
+                    <div class="filterDiv bicho planta"><a href="./img/Parasect.jpg" class="caja">Parasect<img src="./img/Parasect.jpg"></a></div>
+                    <div class="filterDiv bicho veneno"><a href="./img/Venonat.jpg" class="caja">Venonat<img src="./img/Venonat.jpg"></a></div>
+                    <div class="filterDiv bicho veneno"><a href="./img/Venomoth.jpg" class="caja">Venomoth<img src="./img/Venomoth.jpg"></a></div>
+                    <div class="filterDiv tierra"><a href="./img/Diglett.jpg" class="caja">Diglett<img src="./img/Diglett.jpg"></a></div>
+                    <div class="filterDiv tierra"><a href="./img/Dugtrio.jpg" class="caja">Dugtrio<img src="./img/Dugtrio.jpg"></a></div>
+                    <div class="filterDiv normal"><a href="./img/Meowth.jpg" class="caja">Meowth<img src="./img/Meowth.jpg"></a></div>
+                    <div class="filterDiv normal"><a href="./img/Persian.jpg" class="caja">Persian<img src="./img/Persian.jpg"></a></div>
+                    <div class="filterDiv agua"><a href="./img/Psyduck.jpg" class="caja">Psyduck<img src="./img/Psyduck.jpg"></a></div>
+                    <div class="filterDiv agua"><a href="./img/Golduck.jpg" class="caja">Golduck<img src="./img/Golduck.jpg"></a></div>
+                    <div class="filterDiv lucha"><a href="./img/Mankey.jpg" class="caja">Mankey<img src="./img/Mankey.jpg"></a></div>
+                    <div class="filterDiv lucha"><a href="./img/Primeape.jpg" class="caja">Primeape<img src="./img/Primeape.jpg"></a></div>
+                    <div class="filterDiv fuego"><a href="./img/Growlithe.jpg" class="caja">Growlithe<img src="./img/Growlithe.jpg"></a></div>
+                    <div class="filterDiv fuego"><a href="./img/Arcanine.jpg" class="caja">Arcanine<img src="./img/Arcanine.jpg"></a></div>
+                    <div class="filterDiv agua"><a href="./img/Poliwag.jpg" class="caja">Poliwag<img src="./img/Poliwag.jpg"></a></div>
+                    <div class="filterDiv agua"><a href="./img/Poliwhirl.jpg" class="caja">Poliwhirl<img src="./img/Poliwhirl.jpg"></a></div>
+                    <div class="filterDiv agua lucha"><a href="./img/Poliwrath.jpg" class="caja">Poliwrath<img src="./img/Poliwrath.jpg"></a></div>
+                    <div class="filterDiv psiquico"><a href="./img/Abra.jpg" class="caja">Abra<img src="./img/Abra.jpg"></a></div>
+                    <div class="filterDiv psiquico"><a href="./img/Kadabra.jpg" class="caja">Kadabra<img src="./img/Kadabra.jpg"></a></div>
+                    <div class="filterDiv psiquico"><a href="./img/Alakazam.jpg" class="caja">Alakazam<img src="./img/Alakazam.jpg"></a></div>
+                    <div class="filterDiv lucha"><a href="./img/Machop.jpg" class="caja">Machop<img src="./img/Machop.jpg"></a></div>
+                    <div class="filterDiv lucha"><a href="./img/Machoke.jpg" class="caja">Machoke<img src="./img/Machoke.jpg"></a></div>
+                    <div class="filterDiv lucha"><a href="./img/Machamp.jpg" class="caja">Machamp<img src="./img/Machamp.jpg"></a></div>
                     <div class="filterDiv planta veneno"><a href="./img/Bellsprout.jpg" class="caja">Bellsprout<img src="./img/Bellsprout.jpg"></a></div>
                     <div class="filterDiv planta veneno"><a href="./img/Weepinbell.jpg" class="caja">Weepinbell<img src="./img/Weepinbell.jpg"></a></div>
                     <div class="filterDiv planta veneno"><a href="./img/Victreebel.jpg" class="caja">Victreebel<img src="./img/Victreebel.jpg"></a></div>
@@ -209,7 +208,7 @@
         </div>
         <div class="tabcontent" id="Johto">
             <h3>Estos son los pokemon de la región de Johto:</h3>            
-                <div class="row"><input type="text" class="col-4" id="mySearch2" onkeyup="myFunction2()" placeholder="Search.." title="Type in a pokemon">
+                <div class="row"><input type="text" class="col-4" id="mySearch2" onkeyup="myFunction2()" placeholder="Buscar..." title="Type in a pokemon">
                 </div>
                 <div id="myBtnContainer2">
                     <button class="btn2 activo2" onclick="filterSelection2('all')"> Todos los tipos</button>
@@ -342,77 +341,177 @@
                 <div class="col-3 "></div>
           </div>
         </div>
-          <div class="row tabcontent" id="Hoen">
-                <div class="col-6 menu" myList>
-                    <div class="filterDiv planta veneno"><a href="./bulbasaur.html" class="caja">Bulbasaur<img src="./img/bulbasaur.jpg"></a></div>
-                    <div class="filterDiv planta veneno"><a href="./ivysaur.html" class="caja">Ivysaur<img src="./img/ivysaur.jpg"></a></div>
-                    <div class="filterDiv planta veneno"><a href="./venusaur.html" class="caja">Venusaur<img src="./img/venusaur.jpg"></a></div>
-                    <div class="filterDiv fuego"><a href="./Charmander.html" class="caja">Charmander<img src="./img/Charmander.jpg"></a></div>
-                    <div class="filterDiv fuego"><a href="./Charmeleon.html" class="caja">Charmeleon<img src="./img/Charmeleon.jpg"></a></div>
-                    <div class="filterDiv fuego volador"><a href="./Charizard.html" class="caja">Charizard<img src="./img/Charizard.jpg"></a></div>
-                    <div class="filterDiv agua"><a href="./Squirtle.html" class="caja">Squirtle<img src="./img/Squirtle.jpg"></a></div>
-                    <div class="filterDiv agua"><a href="./img/Wartortle.jpg" class="caja">Wartortle<img src="./img/Wartortle.jpg"></a></div>
-                    <div class="filterDiv agua"><a href="./img/Blastoise.jpg" class="caja">Blastoise<img src="./img/Blastoise.jpg"></a></div>
-                    <div class="filterDiv bicho"><a href="./img/Blastoise.jpg" class="caja">Caterpie<img src="./img/Caterpie.jpg"></a></div>
-                    <div class="filterDiv bicho"><a href="./img/Blastoise.jpg" class="caja">Metapod<img src="./img/Metapod.jpg"></a></div>
-                    <div class="filterDiv bicho volador"><a href="./img/Blastoise.jpg" class="caja">Butterfree<img src="./img/Butterfree.jpg"></a></div>                 
-                    <div class="filterDiv bicho veneno"><a href="./img/Blastoise.jpg" class="caja">Weedle<img src="./img/Weedle.jpg"></a></div>
-                    <div class="filterDiv bicho veneno"><a href="./img/Blastoise.jpg" class="caja">Kakuna<img src="./img/Kakuna.jpg"></a></div>
-                    <div class="filterDiv bicho veneno"><a href="./img/Blastoise.jpg" class="caja">Beedrill<img src="./img/Beedrill.jpg"></a></div>
-                    <div class="filterDiv normal volador"><a href="./img/Blastoise.jpg" class="caja">Pidgey<img src="./img/Pidgey.jpg"></a></div>
-                    <div class="filterDiv normal volador"><a href="./img/Blastoise.jpg" class="caja">Pidgeotto<img src="./img/Pidgeotto.jpg"></a></div>
-                    <div class="filterDiv normal volador"><a href="./img/Blastoise.jpg" class="caja">Pidgeot<img src="./img/Pidgeot.jpg"></a></div>
-                    <div class="filterDiv normal"><a href="./img/Blastoise.jpg" class="caja">Rattata<img src="./img/Rattata.jpg"></a></div>
-                    <div class="filterDiv normal"><a href="./img/Blastoise.jpg" class="caja">Raticate<img src="./img/Raticate.jpg"></a></div>
-                    <div class="filterDiv normal volador"><a href="./img/Blastoise.jpg" class="caja">Spearow<img src="./img/Spearow.jpg"></a></div>
-                    <div class="filterDiv normal volador"><a href="./img/Blastoise.jpg" class="caja">Fearow<img src="./img/Fearow.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Ekans<img src="./img/Ekans.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Arbok<img src="./img/Arbok.jpg"></a></div>
-                    <div class="filterDiv electrico"><a href="./img/Blastoise.jpg" class="caja">Pikachu<img src="./img/Pikachu.jpg"></a></div>
-                    <div class="filterDiv electrico"><a href="./img/Blastoise.jpg" class="caja">Raichu<img src="./img/Raichu.jpg"></a></div>
-                    <div class="filterDiv tierra"> <a href="./img/Blastoise.jpg" class="caja">Sandshrew<img src="./img/Sandshrew.jpg"></a></div>
-                    <div class="filterDiv tierra"><a href="./img/Blastoise.jpg" class="caja">Sandslash<img src="./img/Sandslash.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Nidoran ♀<img src="./img/Nidoran♀.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Nidorina<img src="./img/Nidorina.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Nidoqueen<img src="./img/Nidoqueen.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Nidoran ♂<img src="./img/Nidoran♂.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Nidorino<img src="./img/Nidorino.jpg"></a></div>
-                    <div class="filterDiv veneno"><a href="./img/Blastoise.jpg" class="caja">Nidoking<img src="./img/Nidoking.jpg"></a></div>
-                    <div class="filterDiv hada"><a href="./img/Blastoise.jpg" class="caja">Clefairy<img src="./img/Clefairy.jpg"></a></div>
-                    <div class="filterDiv hada"><a href="./img/Blastoise.jpg" class="caja">Clefable<img src="./img/Clefable.jpg"></a></div>
-                    <div class="filterDiv fuego"><a href="./img/Blastoise.jpg" class="caja">Vulpix<img src="./img/Vulpix.jpg"></a></div>
-                    <div class="filterDiv fuego"><a href="./img/Blastoise.jpg" class="caja">Ninetales<img src="./img/Ninetales.jpg"></a></div>
-                    <div class="filterDiv normal hada"><a href="./img/Blastoise.jpg" class="caja">Jigglypuff<img src="./img/Jigglypuff.jpg"></a></div>
-                    <div class="filterDiv normal hada"><a href="./img/Blastoise.jpg" class="caja">Wigglytuff<img src="./img/Wigglytuff.jpg"></a></div>
-                    <div class="filterDiv veneno volador"><a href="./img/Blastoise.jpg" class="caja">Zubat<img src="./img/Zubat.jpg"></a></div>
-                    <div class="filterDiv veneno volador"><a href="./img/Blastoise.jpg" class="caja">Golbat<img src="./img/Golbat.jpg"></a></div>
-                    <div class="filterDiv planta veneno"><a href="./img/Blastoise.jpg" class="caja">Oddish<img src="./img/Oddish.jpg"></a></div>
-                    <div class="filterDiv planta veneno"><a href="./img/Blastoise.jpg" class="caja">Gloom<img src="./img/Oddish.jpg"></a></div>
-                    <div class="filterDiv planta veneno"><a href="./img/Blastoise.jpg" class="caja">Vileplume<img src="./img/Vileplume.jpg"></a></div>
-                    <div class="filterDiv bicho planta"><a href="./img/Blastoise.jpg" class="caja">Paras<img src="./img/Paras.jpg"></a></div>
-                    <div class="filterDiv bicho planta"><a href="./img/Blastoise.jpg" class="caja">Parasect<img src="./img/Parasect.jpg"></a></div>
-                    <div class="filterDiv bicho veneno"><a href="./img/Blastoise.jpg" class="caja">Venonat<img src="./img/Venonat.jpg"></a></div>
-                    <div class="filterDiv bicho veneno"><a href="./img/Blastoise.jpg" class="caja">Venomoth<img src="./img/Venomoth.jpg"></a></div>
-                    <div class="filterDiv tierra"><a href="./img/Blastoise.jpg" class="caja">Diglett<img src="./img/Diglett.jpg"></a></div>
-                    <div class="filterDiv tierra"><a href="./img/Blastoise.jpg" class="caja">Dugtrio<img src="./img/Dugtrio.jpg"></a></div>
-                    <div class="filterDiv normal"><a href="./img/Blastoise.jpg" class="caja">Meowth<img src="./img/Meowth.jpg"></a></div>
-                    <div class="filterDiv normal"><a href="./img/Blastoise.jpg" class="caja">Persian<img src="./img/Persian.jpg"></a></div>
-                    <div class="filterDiv agua"><a href="./img/Blastoise.jpg" class="caja">Psyduck<img src="./img/Psyduck.jpg"></a></div>
-                    <div class="filterDiv agua"><a href="./img/Blastoise.jpg" class="caja">Golduck<img src="./img/Golduck.jpg"></a></div>
-                    <div class="filterDiv lucha"><a href="./img/Blastoise.jpg" class="caja">Mankey<img src="./img/Mankey.jpg"></a></div>
-                    <div class="filterDiv lucha"><a href="./img/Blastoise.jpg" class="caja">Primeape<img src="./img/Primeape.jpg"></a></div>
-                    <div class="filterDiv fuego"><a href="./img/Blastoise.jpg" class="caja">Growlithe<img src="./img/Growlithe.jpg"></a></div>
-                    <div class="filterDiv fuego"><a href="./img/Blastoise.jpg" class="caja">Arcanine<img src="./img/Arcanine.jpg"></a></div>
-                    <div class="filterDiv agua"><a href="./img/Blastoise.jpg" class="caja">Poliwag<img src="./img/Poliwag.jpg"></a></div>
-                    <div class="filterDiv agua"><a href="./img/Blastoise.jpg" class="caja">Poliwhirl<img src="./img/Poliwhirl.jpg"></a></div>
-                    <div class="filterDiv agua lucha"><a href="./img/Blastoise.jpg" class="caja">Poliwrath<img src="./img/Poliwrath.jpg"></a></div>
-                    <div class="filterDiv psiquico"><a href="./img/Blastoise.jpg" class="caja">Abra<img src="./img/Abra.jpg"></a></div>
-                    <div class="filterDiv psiquico"><a href="./img/Blastoise.jpg" class="caja">Kadabra<img src="./img/Kadabra.jpg"></a></div>
-                    <div class="filterDiv psiquico"><a href="./img/Blastoise.jpg" class="caja">Alakazam<img src="./img/Alakazam.jpg"></a></div>
-                    <div class="filterDiv lucha"><a href="./img/Blastoise.jpg" class="caja">Machop<img src="./img/Machop.jpg"></a></div>
-                    <div class="filterDiv lucha"><a href="./img/Blastoise.jpg" class="caja">Machoke<img src="./img/Machoke.jpg"></a></div>
-                    <div class="filterDiv lucha"><a href="./img/Blastoise.jpg" class="caja">Machamp<img src="./img/Machamp.jpg"></a></div>
+        <div class="tabcontent" id="Hoen">
+            <h3>Estos son los pokemon de la región de Hoen:</h3>            
+                <div class="row"><input type="text" class="col-4" id="mySearch3" onkeyup="myFunction3()" placeholder="Buscar..." title="Type in a pokemon">
                 </div>
+                <div id="myBtnContainer3">
+                    <button class="btn3 activo3" onclick="filterSelection3('all')"> Todos los tipos</button>
+                    <button class="btn3" onclick="filterSelection3('fuego')"> Fuego</button>
+                    <button class="btn3" onclick="filterSelection3('planta')"> Planta</button>
+                    <button class="btn3" onclick="filterSelection3('agua')"> Agua</button>
+                    <button class="btn3" onclick="filterSelection3('electrico')"> Electrico</button>
+                    <button class="btn3" onclick="filterSelection3('hada')"> Hada</button>
+                    <button class="btn3" onclick="filterSelection3('lucha')"> Lucha</button>
+                    <button class="btn3" onclick="filterSelection3('veneno')"> Veneno</button>
+                    <button class="btn3" onclick="filterSelection3('psiquico')"> Psíquico</button>
+                    <button class="btn3" onclick="filterSelection3('bicho')"> Bicho</button>
+                    <button class="btn3" onclick="filterSelection3('normal')"> Normal</button>
+                    <button class="btn3" onclick="filterSelection3('tierra')"> Tierra</button>
+                    <button class="btn3" onclick="filterSelection3('dragon')"> Dragon</button>
+                    <button class="btn3" onclick="filterSelection3('siniestro')"> Siniestro</button>
+                    <button class="btn3" onclick="filterSelection3('fantasma')"> Fantasma</button>
+                    <button class="btn3" onclick="filterSelection3('acero')"> Acero</button>
+                    <button class="btn3" onclick="filterSelection3('volador')"> Volador</button>
+                    <button class="btn3" onclick="filterSelection3('roca')"> Roca</button>
+                    <button class="btn3" onclick="filterSelection3('hielo')"> Hielo</button>
+                </div>
+            
+          
+            <div class="col-3 "></div>
+  
+          <div class="row">
+                <div class="col-6 menu" myList>
+                    <div class="filterDiv2 planta"><a href="./Treecko.jpg" class="caja">Treecko<img src="./img/Treecko.jpg"></a></div>
+                    <div class="filterDiv2 planta"><a href="./Grovyle.jpg" class="caja">Grovyle<img src="./img/Grovyle.jpg"></a></div>
+                    <div class="filterDiv2 planta"><a href="./Sceptile.jpg" class="caja">Sceptile<img src="./img/Sceptile.jpg"></a></div>
+                    <div class="filterDiv2 fuego"><a href="./Torchic.jpg" class="caja">Torchic<img src="./img/Torchic.jpg"></a></div>
+                    <div class="filterDiv2 fuego"><a href="./Combusken.jpg" class="caja">Combusken<img src="./img/Combusken.jpg"></a></div>
+                    <div class="filterDiv2 fuego lucha"><a href="./Blaziken.jpg" class="caja">Blaziken<img src="./img/Blaziken.jpg"></a></div>
+                    <div class="filterDiv2 agua"><a href="./Mudkip.jpg" class="caja">Mudkip<img src="./img/Mudkip.jpg"></a></div>
+                    <div class="filterDiv2 agua tierra"><a href="./img/Marshtomp.jpg" class="caja">Marshtomp<img src="./img/Marshtomp.jpg"></a></div>
+                    <div class="filterDiv2 agua tierra"><a href="./img/Swampert.jpg" class="caja">Swampert<img src="./img/Swampert.jpg"></a></div>
+                    <div class="filterDiv2 siniestro"><a href="./img/Poochyena.jpg" class="caja">Poochyena<img src="./img/Poochyena.jpg"></a></div>
+                    <div class="filterDiv2 siniestro"><a href="./img/Mightyena.jpg" class="caja">Mightyena<img src="./img/Mightyena.jpg"></a></div>
+                    <div class="filterDiv2 normal"><a href="./img/Zigzagoon.jpg" class="caja">Zigzagoon<img src="./img/Zigzagoon.jpg"></a></div>                 
+                    <div class="filterDiv2 normal"><a href="./img/Linoone.jpg" class="caja">Linoone<img src="./img/Linoone.jpg"></a></div>
+                    <div class="filterDiv2 bicho"><a href="./img/Wurmple.jpg" class="caja">Wurmple<img src="./img/Wurmple.jpg"></a></div>
+                    <div class="filterDiv2 bicho"><a href="./img/Silcon.jpg" class="caja">Silcoon<img src="./img/Silcon.jpg"></a></div>
+                    <div class="filterDiv2 bicho volador"><a href="./img/Beautifly.jpg" class="caja">Beautifly<img src="./img/Beautifly.jpg"></a></div>
+                    <div class="filterDiv2 bicho"><a href="./img/Cascoon.jpg" class="caja">Cascoon<img src="./img/Cascoon.jpg"></a></div>
+                    <div class="filterDiv2 veneno bicho"><a href="./img/Dustox.jpg" class="caja">Dustox<img src="./img/Dustox.jpg"></a></div>
+                    <div class="filterDiv2 agua planta"><a href="./img/Lotad.jpg" class="caja">Lotad<img src="./img/Lotad.jpg"></a></div>
+                    <div class="filterDiv2 agua planta"><a href="./img/Lombre.jpg" class="caja">Lombre<img src="./img/Lombre.jpg"></a></div>
+                    <div class="filterDiv2 agua planta"><a href="./img/Ludicolo.jpg" class="caja">Ludicolo<img src="./img/Ludicolo.jpg"></a></div>
+                    <div class="filterDiv2 hada"><a href="./img/Seedot.jpg" class="caja">Seedot<img src="./img/Seedot.jpg"></a></div>
+                    <div class="filterDiv2 planta siniestro"><a href="./img/Nuzleaf.jpg" class="caja">Nuzleaf<img src="./img/Nuzleaf.jpg"></a></div>
+                    <div class="filterDiv2 planta siniestro"><a href="./img/Shiftry.jpg" class="caja">Shiftry<img src="./img/Shiftry.jpg"></a></div>
+                    <div class="filterDiv2 normal volador"><a href="./img/Taillow.jpg" class="caja">Taillow<img src="./img/Taillow.jpg"></a></div>
+                    <div class="filterDiv2 volador normal"><a href="./img/Swellow.jpg" class="caja">Swellow<img src="./img/Swellow.jpg"></a></div>
+                    <div class="filterDiv2 volador agua"> <a href="./img/Wingull.jpg" class="caja">Wingull<img src="./img/Wingull.jpg"></a></div>
+                    <div class="filterDiv2 volador agua"><a href="./img/Pelipper.jpg" class="caja">Pelipper<img src="./img/Pelipper.jpg"></a></div>
+                    <div class="filterDiv2 psiquico hada"><a href="./img/Ralts.jpg" class="caja">Ralts<img src="./img/Ralts.jpg"></a></div>
+                    <div class="filterDiv2 psiquico hada"><a href="./img/Kirlia.jpg" class="caja">Kirlia<img src="./img/Kirlia.jpg"></a></div>
+                    <div class="filterDiv2 psiquico hada"><a href="./img/Gardevoir.jpg" class="caja">Gardevoir<img src="./img/Gardevoir.jpg"></a></div>
+                    <div class="filterDiv2 agua bicho"><a href="./img/Surskit.jpg" class="caja">Surskit<img src="./img/Surskit.jpg"></a></div>
+                    <div class="filterDiv2 bicho volador"><a href="./img/Masquerain.jpg" class="caja">Masquerain<img src="./img/Masquerain.jpg"></a></div>
+                    <div class="filterDiv2 planta"><a href="./img/Shroomish.jpg" class="caja">Shroomish<img src="./img/Shroomish.jpg"></a></div>
+                    <div class="filterDiv2 planta lucha"><a href="./img/Breloom.jpg" class="caja">Breloom<img src="./img/Breloom.jpg"></a></div>
+                    <div class="filterDiv2 normal"><a href="./img/Slakoth.jpg" class="caja">Slakoth<img src="./img/Slakoth.jpg"></a></div>
+                    <div class="filterDiv2 normal"><a href="./img/Vigoroth.jpg" class="caja">Vigoroth<img src="./img/Vigoroth.jpg"></a></div>
+                    <div class="filterDiv2 normal"><a href="./img/Slaking.jpg" class="caja">Slaking<img src="./img/Slaking.jpg"></a></div>
+                    <div class="filterDiv2 bicho tierra"><a href="./img/Nincada.jpg" class="caja">Nincada<img src="./img/Nincada.jpg"></a></div>
+                    <div class="filterDiv2 bicho volador"><a href="./img/Ninjask.jpg" class="caja">Ninjask<img src="./img/Ninjask.jpg"></a></div>
+                    <div class="filterDiv2 bicho fantasma"><a href="./img/Shedinja.jpg" class="caja">Shedinja<img src="./img/Shedinja.jpg"></a></div>
+                    <div class="filterDiv2 normal"><a href="./img/Whismur.jpg" class="caja">Whismur<img src="./img/Whismur.jpg"></a></div>
+                    <div class="filterDiv2 normal"><a href="./img/Loudred.jpg" class="caja">Loudred<img src="./img/Loudred.jpg"></a></div>
+                    <div class="filterDiv2 normal"><a href="./img/Exploud.jpg" class="caja">Exploud<img src="./img/Exploud.jpg"></a></div>
+                    <div class="filterDiv2 lucha"><a href="./img/Makuhita.jpg" class="caja">Makuhita<img src="./img/Makuhita.jpg"></a></div>
+                    <div class="filterDiv2 lucha"><a href="./img/Hariyama.jpg" class="caja">Hariyama<img src="./img/Hariyama.jpg"></a></div>
+                    <div class="filterDiv2 normal hada"><a href="./img/Azurill.jpg" class="caja">Azurill<img src="./img/Azurill.jpg"></a></div>
+                    <div class="filterDiv2 roca"><a href="./img/Nosepass.jpg" class="caja">Nosepass<img src="./img/Nosepass.jpg"></a></div>
+                    <div class="filterDiv2 normal"><a href="./img/Skitty.jpg" class="caja">Skitty<img src="./img/Skitty.jpg"></a></div>
+                    <div class="filterDiv2 normal"><a href="./img/Delcatty.jpg" class="caja">Delcatty<img src="./img/Delcatty.jpg"></a></div>
+                    <div class="filterDiv2 siniestro fantasma"><a href="./img/Sableye.jpg" class="caja">Sableye<img src="./img/Sableye.jpg"></a></div>
+                    <div class="filterDiv2 acero hada"><a href="./img/Mawile.jpg" class="caja">Mawile<img src="./img/Mawile.jpg"></a></div>
+                    <div class="filterDiv2 acero roca"><a href="./img/Aron.jpg" class="caja">Aron<img src="./img/Aron.jpg"></a></div>
+                    <div class="filterDiv2 roca acero"><a href="./img/Lairon.jpg" class="caja">Lairon<img src="./img/Lairon.jpg"></a></div>
+                    <div class="filterDiv2 acero roca"><a href="./img/Aggron.jpg" class="caja">Aggron<img src="./img/Aggron.jpg"></a></div>
+                    <div class="filterDiv2 lucha psiquico"><a href="./img/Meditite.jpg" class="caja">Meditite<img src="./img/Meditite.jpg"></a></div>
+                    <div class="filterDiv2 lucha psiquico"><a href="./img/Medicham.jpg" class="caja">Medicham<img src="./img/Medicham.jpg"></a></div>
+                    <div class="filterDiv2 electrico"><a href="./img/Electrike.jpg" class="caja">Electrike<img src="./img/Electrike.jpg"></a></div>
+                    <div class="filterDiv2 electrico"><a href="./img/Manectric.jpg" class="caja">Manectric<img src="./img/Manectric.jpg"></a></div>
+                    <div class="filterDiv2 electrico"><a href="./img/Plusle.jpg" class="caja">Plusle<img src="./img/Plusle.jpg"></a></div>
+                    <div class="filterDiv2 electrico"><a href="./img/Minum.jpg" class="caja">Minun<img src="./img/Minum.jpg"></a></div>
+                    <div class="filterDiv2 bicho"><a href="./img/Volbeat.jpg" class="caja">Volbeat<img src="./img/Volbeat.jpg"></a></div>
+                    <div class="filterDiv2 bicho"><a href="./img/Illumise.jpg" class="caja">Illumise<img src="./img/Illumise.jpg"></a></div>
+                    <div class="filterDiv2 planta veneno"><a href="./img/Roselia.jpg" class="caja">Roselia<img src="./img/Roselia.jpg"></a></div>
+                    <div class="filterDiv2 veneno"><a href="./img/Gulpin.jpg" class="caja">Gulpin<img src="./img/Gulpin.jpg"></a></div>
+                    <div class="filterDiv2 veneno"><a href="./img/Swalot.jpg" class="caja">Swalot<img src="./img/Swalot.jpg"></a></div>
+                    <div class="filterDiv2 agua siniestro"><a href="./img/Carvanha.jpg" class="caja">Carvanha<img src="./img/Carvanha.jpg"></a></div>
+                    <div class="filterDiv2 agua siniestro"><a href="./img/Sharpedo.jpg" class="caja">Sharpedo<img src="./img/Sharpedo.jpg"></a></div>
+                    <div class="filterDiv2 agua"><a href="./img/Wailmer.jpg" class="caja">Wailmer<img src="./img/Wailmer.jpg"></a></div>
+                    <div class="filterDiv2 agua"><a href="./img/Wailord.jpg" class="caja">Wailord<img src="./img/Wailord.jpg"></a></div>
+                    <div class="filterDiv2 fuego tierra"><a href="./img/Numel.jpg" class="caja">Numel<img src="./img/Numel.jpg"></a></div>
+                    <div class="filterDiv2 fuego tierra"><a href="./img/Camerupt.jpg" class="caja">Camerupt<img src="./img/Camerupt.jpg"></a></div>
+                    <div class="filterDiv2 fuego"><a href="./img/Torkoal.jpg" class="caja">Torkoal<img src="./img/Torkoal.jpg"></a></div>
+                    <div class="filterDiv2 psiquico"><a href="./img/Spoink.jpg" class="caja">Spoink<img src="./img/Spoink.jpg"></a></div>
+                    <div class="filterDiv2 psiquico"><a href="./img/Grumpig.jpg" class="caja">Grumpig<img src="./img/Grumpig.jpg"></a></div>
+                    <div class="filterDiv2 normal"><a href="./img/Spinda.jpg" class="caja">Spinda<img src="./img/Spinda.jpg"></a></div>
+                    <div class="filterDiv2 tierra"><a href="./img/Trapinch.jpg" class="caja">Trapinch<img src="./img/Trapinch.jpg"></a></div>
+                    <div class="filterDiv2 tierra dragon"><a href="./img/Vibrava.jpg" class="caja">Vibrava<img src="./img/Vibrava.jpg"></a></div>
+                    <div class="filterDiv2 tierra dragon"><a href="./img/Flygon.jpg" class="caja">Flygon<img src="./img/Flygon.jpg"></a></div>
+                    <div class="filterDiv2 planta"><a href="./img/Cacnea.jpg" class="caja">Cacnea<img src="./img/Cacnea.jpg"></a></div>
+                    <div class="filterDiv2 planta siniestro"><a href="./img/Cacturne.jpg" class="caja">Cacturne<img src="./img/Cacturne.jpg"></a></div>
+                    <div class="filterDiv2 normal volador"><a href="./img/Swablu.jpg" class="caja">Swablu<img src="./img/Swablu.jpg"></a></div>
+                    <div class="filterDiv2 dragon volador"><a href="./img/Altaria.jpg" class="caja">Altaria<img src="./img/Altaria.jpg"></a></div>
+                    <div class="filterDiv2 normal"><a href="./img/Zangoose.jpg" class="caja">Zangoose<img src="./img/Zangoose.jpg"></a></div>
+                    <div class="filterDiv2 veneno"><a href="./img/Seviper.jpg" class="caja">Seviper<img src="./img/Seviper.jpg"></a></div>
+                    <div class="filterDiv2 roca psiquico"><a href="./img/Lunatone.jpg" class="caja">Lunatone<img src="./img/Lunatone.jpg"></a></div>
+                    <div class="filterDiv2 roca psiquico"><a href="./img/Solrock.jpg" class="caja">Solrock<img src="./img/Solrock.jpg"></a></div>
+                    <div class="filterDiv2 agua tierra"><a href="./img/Barboach.jpg" class="caja">Barboach<img src="./img/Barboach.jpg"></a></div>
+                    <div class="filterDiv2 agua tierra"><a href="./img/Whiscash.jpg" class="caja">Whiscash<img src="./img/Whiscash.jpg"></a></div>
+                    <div class="filterDiv2 agua"><a href="./img/Corphish.jpg" class="caja">Corphish<img src="./img/Corphish.jpg"></a></div>
+                    <div class="filterDiv2 agua siniestro"><a href="./img/Crawdaunt.jpg" class="caja">Crawdaunt<img src="./img/Crawdaunt.jpg"></a></div>
+                    <div class="filterDiv2 tierra psiquico"><a href="./img/Baltoy.jpg" class="caja">Baltoy<img src="./img/Baltoy.jpg"></a></div>
+                    <div class="filterDiv2 tierra psiquico"><a href="./img/Claydol.jpg" class="caja">Claydol<img src="./img/Claydol.jpg"></a></div>
+                    <div class="filterDiv2 roca planta"><a href="./img/Lileep.jpg" class="caja">Lileep<img src="./img/Lileep.jpg"></a></div>
+                    <div class="filterDiv2 planta roca"><a href="./img/Cradily.jpg" class="caja">Cradily<img src="./img/Cradily.jpg"></a></div>
+                    <div class="filterDiv2 bicho roca"><a href="./img/Anorith.jpg" class="caja">Anorith<img src="./img/Anorith.jpg"></a></div>
+                    <div class="filterDiv2 bicho roca"><a href="./img/Armaldo.jpg" class="caja">Armaldo<img src="./img/Armaldo.jpg"></a></div>
+                    <div class="filterDiv2 agua"><a href="./img/Feebas.jpg" class="caja">Feebas<img src="./img/Feebas.jpg"></a></div>
+                    <div class="filterDiv2 agua"><a href="./img/Milotic.jpg" class="caja">Milotic<img src="./img/Milotic.jpg"></a></div>
+                    <div class="filterDiv2 normal"><a href="./img/Castform.jpg" class="caja">Castform<img src="./img/Castform.jpg"></a></div>
+                    <div class="filterDiv2 normal"><a href="./img/Kecleon.jpg" class="caja">Kecleon<img src="./img/Kecleon.jpg"></a></div>
+                    <div class="filterDiv2 fantasma"><a href="./img/Shuppet.jpg" class="caja">Shuppet<img src="./img/Shuppet.jpg"></a></div>
+                    <div class="filterDiv2 fantasma"><a href="./img/Banette.jpg" class="caja">Banette<img src="./img/Banette.jpg"></a></div>
+                    <div class="filterDiv2 fantasma"><a href="./img/Duskull.jpg" class="caja">Duskull<img src="./img/Duskull.jpg"></a></div>
+                    <div class="filterDiv2 fantasma"><a href="./img/Dusclops.jpg" class="caja">Dusclops<img src="./img/Dusclops.jpg"></a></div>
+                    <div class="filterDiv2 planta volador"><a href="./img/Tropius.jpg" class="caja">Tropius<img src="./img/Tropius.jpg"></a></div>
+                    <div class="filterDiv2 psiquico"><a href="./img/Chimecho.jpg" class="caja">Chimecho<img src="./img/Chimecho.jpg"></a></div>
+                    <div class="filterDiv2 siniestro"><a href="./img/Absol.jpg" class="caja">Absol<img src="./img/Absol.jpg"></a></div>
+                    <div class="filterDiv2 psiquico"><a href="./img/Wynaut.jpg" class="caja">Wynaut<img src="./img/Wynaut.jpg"></a></div>
+                    <div class="filterDiv2 hielo"><a href="./img/Snorunt.jpg" class="caja">Snorunt<img src="./img/Snorunt.jpg"></a></div>
+                    <div class="filterDiv2 hielo"><a href="./img/Glalie.jpg" class="caja">Glalie<img src="./img/Glalie.jpg"></a></div>
+                    <div class="filterDiv2 hielo agua"><a href="./img/Spheal.jpg" class="caja">Spheal<img src="./img/Spheal.jpg"></a></div>
+                    <div class="filterDiv2 hielo agua"><a href="./img/Sealeo.jpg" class="caja">Sealeo<img src="./img/Sealeo.jpg"></a></div>
+                    <div class="filterDiv2 hielo agua"><a href="./img/Walrein.jpg" class="caja">Walrein<img src="./img/Walrein.jpg"></a></div>
+                    <div class="filterDiv2 agua"><a href="./img/Clamperl.jpg" class="caja">Clamperl<img src="./img/Clamperl.jpg"></a></div>
+                    <div class="filterDiv2 agua"><a href="./img/Huntail.jpg" class="caja">Huntail<img src="./img/Huntail.jpg"></a></div>
+                    <div class="filterDiv2 agua"><a href="./img/Gorebyss.jpg" class="caja">Gorebyss<img src="./img/Gorebyss.jpg"></a></div>
+                    <div class="filterDiv2 agua roca"><a href="./img/Relicanth.jpg" class="caja">Relicanth<img src="./img/Relicanth.jpg"></a></div>
+                    <div class="filterDiv2 agua"><a href="./img/Luvdisc.jpg" class="caja">Luvdisc<img src="./img/Luvdisc.jpg"></a></div>
+                    <div class="filterDiv2 dragon "><a href="./img/Bagon.jpg" class="caja">Bagon<img src="./img/Bagon.jpg"></a></div>
+                    <div class="filterDiv2 dragon"><a href="./img/Shelgon.jpg" class="caja">Shelgon<img src="./img/Shelgon.jpg"></a></div>
+                    <div class="filterDiv2 dragon"><a href="./img/Salamence.jpg" class="caja">Salamence<img src="./img/Salamence.jpg"></a></div>
+                    <div class="filterDiv2 acero psiquico"><a href="./img/Beldum.jpg" class="caja">Beldum<img src="./img/Beldum.jpg"></a></div>
+                    <div class="filterDiv2 acero psiquico"><a href="./img/Metang.jpg" class="caja">Metang<img src="./img/Metang.jpg"></a></div>
+                    <div class="filterDiv2 acero psiquico"><a href="./img/Metagross.jpg" class="caja">Metagross<img src="./img/Metagross.jpg"></a></div>
+                    <div class="filterDiv2 roca"><a href="./img/Regirock.jpg" class="caja">Regirock<img src="./img/Regirock.jpg"></a></div>
+                    <div class="filterDiv2 hielo"><a href="./img/Regice.jpg" class="caja">Regice<img src="./img/Regice.jpg"></a></div>
+                    <div class="filterDiv2 acero"><a href="./img/Registeel.jpg" class="caja">Registeel<img src="./img/Registeel.jpg"></a></div>
+                    <div class="filterDiv2 dragon psiquico"><a href="./img/Latias.jpg" class="caja">Latias<img src="./img/Latias.jpg"></a></div>
+                    <div class="filterDiv2 dragon psiquico"><a href="./img/Latios.jpg" class="caja">Latios<img src="./img/Latios.jpg"></a></div>
+                    <div class="filterDiv2 agua"><a href="./img/Kyogre.jpg" class="caja">Kyogre<img src="./img/Kyogre.jpg"></a></div>
+                    <div class="filterDiv2 tierra"><a href="./img/Groudon.jpg" class="caja">Groudon<img src="./img/Groudon.jpg"></a></div>
+                    <div class="filterDiv2 dragon volador"><a href="./img/Rayquaza.jpg" class="caja">Rayquaza<img src="./img/Rayquaza.jpg"></a></div>
+                    <div class="filterDiv2 acero psiquico"><a href="./img/Jirachi.jpg" class="caja">Jirachi<img src="./img/Jirachi.jpg"></a></div>
+                    <div class="filterDiv2 psiquico"><a href="./img/Deoxys.jpg" class="caja">Deoxys<img src="./img/Deoxys.jpg"></a></div>
+                </div>
+                <div class="col-3 "></div>
+          </div>
+        </div>
+          
                 <div class="col-3 "></div>
           </div>
           
